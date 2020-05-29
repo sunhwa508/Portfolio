@@ -116,6 +116,15 @@ main {
     justify-content: center;
     margin-top: 20px;
   }
+  .about {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    flex-direction: column;
+  }
+
   header nav button {
     font-size: 2em;
   }
@@ -124,6 +133,7 @@ main {
   }
   .skillicons {
     font-size: 3rem;
+    margin-bottom: 100px;
   }
   .skillicons img {
     width: 40px;
