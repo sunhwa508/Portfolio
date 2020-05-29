@@ -116,6 +116,7 @@ main {
     justify-content: center;
     margin-top: 20px;
   }
+
   .about {
     width: 100%;
     display: flex;
@@ -138,11 +139,24 @@ main {
   .skillicons img {
     width: 40px;
   }
+
+  footer {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  footer p {
+    color: #cccccc;
+  }
 }
 footer {
   position: fixed;
   bottom: 0;
-  height: 100px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -150,7 +164,7 @@ footer {
 }
 footer p {
   color: #cccccc;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .icons {
